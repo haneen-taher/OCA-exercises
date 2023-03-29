@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist Appointment Reservation Form</title>
+</head>
+<body>
+    <h1 style= "color: blue;">Dentist Appointment Reservation Form</h1>
+    <p style="color: blue;text-align: center;"><b>*Mandatory fields</b></p> 
+<div align="center">
+    <form>
+    <label for="fname" style="color: blue;"> Full name*:</label><br>
+    <input type="text" placeholder="FirstName LastName" id ="fname"name="fname"><br><br>
+    <label for="Email" style="color: blue;" > Email address*:</label><br>
+    <input type="email" placeholder="johnDoe@example.com" id ="Email"name="Email"><br><br>
+    <label for="service" style="color: blue;" > Select the needed service*:</label><br>
+    <select name = "dropdown">
+        <option value = "Whitening" selected>Whitening</option>
+        <option value = "Caries">Caries</option>
+        <option value = "Routine check">Routine check</option>
+     </select><br><br>
+     <label for="Appointment" style="color: blue;" > Appoinment date*:</label><br>
+     <input  type="date" id="Appoinment date" name="Appoinment date"><br><br>
+     <label for="Appointment Time" style="color: blue;" > Appoinment Time*:</label><br>
+     <input  type="time" id="Appoinment Time" name="Appoinment Time"><br><br>
+     <label for="Doctor's preferred gender" style="color: blue;" > Doctor's preferred gender*:</label><br>
+     <input  type="radio" id="Male" name="Doctor's preferred gender" value="Male">
+     <label style="color: blue;" for ="Male">Male</label><br>
+     <input  type="radio" id="Female" name="Doctor's preferred gender" value="Female">
+     <label style="color: blue;" for="Female">Female</label><br><br>
+     <label for="note" style="color: blue;"> Special Note:</label><br>
+    <input type="text" style="height: 100px;width: 200px;" placeholder="Enter text here" id ="note"name="Special Note"><br><br>
+    <label for="Terms and conditions" style="color: blue;" > Terms and conditions*:</label><br>
+     <input  type="radio" id="I agree" name="Terms and conditions" value="I agree">
+     <label style="color: blue;" for="I agree">I agree</label><br>
+     <input  type="radio" id="I disagree" name="Terms and conditions" value="I disagree">
+     <label style="color: blue;" for="I disagree">I disagree</label><br><br>
+     
+</form>
+</div>
+
+</body>
+</html>
