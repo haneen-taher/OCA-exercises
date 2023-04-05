@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menu-area a {
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    color:darkblue;
+    background-color:cadetblue;
+    height: 50px;
+    font-weight:bold;
+    text-decoration: none;
+}
+div{
+    width: 100%;
+    background-color:cadetblue;
+}
+.menu-area{
+    border: 3px solid;
+}
+.menu-area a:hover{
+    color:gold;
+}
+.menu-area ul {
+    list-style:none ;
+    display: flex;
+}
+.menu-area ul li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.menu-area li:hover .dropdown{
+    top:0;
+    display:block;
+}
+.dropdown ul li{
+    display: none;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.dropdown ul li:hover {
+    display: block;
+}
+
+button{
+    border: 3px solid black;border-bottom-width: 7px;
+   margin: 30px;
+
+
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.imgs {
+  width: 20%;
+  height: 30vh;
+}
+body {
+  height: 90vh;
+  font-size: 18px;
+  font-family: cursive;
+  color: chocolate;
+  background-color: blanchedalmond;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(237, 200, 151);
+  height: 100px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+div.container{
+  display: flex;
+}
+.container {
+  background-color: rgb(211, 157, 92);
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+.aside {
+  background-color: rgb(237, 200, 151);
+  width: 200px;
+  height: 70vh;
+}
+
+.footer {
+  background-color: rgb(237, 200, 151);
+  height: 100px;
+  justify-content: center;
+  padding-top: 30px;
+}

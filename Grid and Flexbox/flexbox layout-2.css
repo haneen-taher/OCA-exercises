@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.collection{
+    display: flex;
+    flex-direction:row;
+    flex-grow: 0;
+    gap: 5px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+
+.imga{
+    height:20vh;  
+}
+    
+.imgb{
+    height: 30vh;
+    position: relative;
+    bottom: 40px;
+
+    
+}
+.imgc{
+    height: 15vh;
+    
+}
+.imgd{
+    height: 35vh;
+    position: relative;
+    bottom: 40px;
+   
+}
+.imge{
+    height: 50vh;
+    position: relative;
+    bottom: 90px;
+    
+
+}
+.imgf{
+    height: 20vh;
+    
+}
+

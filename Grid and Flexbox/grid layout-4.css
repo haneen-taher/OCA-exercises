@@ -1,0 +1,67 @@
+.container {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 1fr 1fr 2fr 4fr;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    grid-template-areas: "one two two"
+    "one main main"
+    "one five five"
+    "one five five"
+    "one five five";
+  }
+  .two {
+    grid-column: 2/3;
+    grid-area: two;
+    background-color: rgb(247, 142, 22);
+    text-align: center;
+    font-size: 30px;color: white; font-weight: bold;
+    padding-top: 20px;}
+  
+  .one {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    grid-area: one;
+    background-color: rgb(198, 251, 74);
+    text-align: center;
+    font-size: 30px;color: white; font-weight: bold;
+    padding-top: 20px;}
+  
+  .main{
+      grid-column: 2/3;
+      grid-row: 2/3;
+      grid-area: main; 
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    grid-template-areas: "three four";
+  }
+  .three{
+  grid-column: 1/2;
+  grid-area: three;
+  background-color: rgb(101, 193, 151);
+    font-size: 24px;
+    text-align: center;
+    font-size: 30px;color: white; font-weight: bold;
+    padding-top: 20px;
+  }
+  .four{
+      grid-column: 2/3;
+      grid-area: four;
+      background-color: rgb(101, 193, 151);
+      text-align: center;
+      font-size: 30px;color: white; font-weight: bold;
+      padding-top: 20px;
+  }
+  .five{
+      grid-column: 2/3;
+      grid-row:4/5;
+      grid-area: five;
+      background-color: rgb(56, 134, 202);  
+      text-align: center;
+    font-size: 30px;color: white; font-weight: bold;
+    padding-top: 20px;
+  }
+  
