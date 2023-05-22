@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  background-color: skyblue;
+}
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.wrapper {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background: black;
+  border-radius: 5px;
+  box-shadow: rgba(38, 57, 77) 0px 20px 30px -10px;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+button {
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  background: black;
+  display: block;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+#heading {
+  color: rgba(2, 2, 71, 0.951);
+  margin-left: 30px;
+}
+#bmi-output {
+  color: rgba(2, 2, 71, 0.951);
+  margin-left: 30px;
+}
+#message {
+  color: rgba(2, 2, 71, 0.951);
+  margin-left: 30px;
+}
+.mode {
+  position: absolute;
+}
+body.dark-mode {
+  background-color: rgb(1, 1, 46);
+  color: white;
+}
+#dark-mode-btn {
+  float: left;
+  margin: 35px;
+  margin-bottom: 60px;
+  padding: 15px;
+}

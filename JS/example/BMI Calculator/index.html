@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="mode">
+      <button id="dark-mode-btn">
+        <i class="fa-solid fa-circle-half-stroke" style="color: #f0f2f5"></i>
+      </button>
+    </div>
+    <h1>BMI Calculator</h1>
+    <div class="wrapper">
+      <p>Calculate your BMI</p>
+      <br /><br />
+      <p>
+        Enter your height:
+        <input type="number" id="height" placeholder="Height in meter" /><br />
+      </p>
+      <br /><br />
+      <p>
+        Enter your weight:
+        <input type="number" id="weight" placeholder="Weight in Kg" /><br />
+      </p>
+      <br /><br />
+      <button id="btn-1">Calculate</button>
+      <button id="btn-2">Clear</button>
+    </div>
+    <div class="wrapper-1">
+      <h4 id="heading"></h4>
+      <p id="bmi-output"></p>
+      <p id="message"></p>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
